@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>tailwind website</title>
     <link rel="stylesheet" href="/css/main.css">
 </head>
-<body>
-    <div class="bg-color-secondary">athrava</div>
+<body class="bg-color-primary text-color-white tracking-wider">
+<header>
+    <nav class="container flex justify-between items-center">
+        <div class=" py-3 text-color-secondary font-bold text-3xl">
+            <a href="#home">
+                <span class="text-color-white">Atharva</span>Zare   
+            </a>
+        </div>
+        <div>
+            <ul class="flex items-center space-x-6 gap-5 text-xl">
+                <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">home</a></li>
+                <li><a href="#features" class="hover:text-color-secondary ease-in duration-200">features</a></li>
+                <li><a href="#testimonial" class="hover:text-color-secondary ease-in duration-200">testimonial</a></li>
+                <li><a href="#pricing" class="hover:text-color-secondary ease-in duration-200">pricing</a></li>
+                <li><a href="#blog" class="hover:text-color-secondary ease-in duration-200">blog</a></li>
+                <li><a href="#contact" class="hover:text-color-secondary ease-in duration-200">contact</a></li>
+                <li>
+                    <button class="bg-color-secondary px-6 py-2 font-bold capitalize  rounded-xl hover: opacity-80 ease-in duration-500 hover:bg-orange-800
+">free trial</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
 </body>
 </html>
