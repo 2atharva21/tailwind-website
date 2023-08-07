@@ -5,13 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tailwind website</title>
     <link rel="stylesheet" href="/css/main.css">
-<<<<<<< HEAD
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="https://www.bing.com/ck/a?!&&p=8832d195ff4ebe8bJmltdHM9MTY5MTM2NjQwMCZpZ3VpZD0yZjI3MjMxOS02NGE3LTY4NDItMzliZC0zMDIzNjUzYzY5YTMmaW5zaWQ9NTU2OA&ptn=3&hsh=3&fclid=2f272319-64a7-6842-39bd-3023653c69a3&u=a1L2ltYWdlcy9zZWFyY2g_cT1yYW5kb20gaW1hZ2UgbG9nbyBnZW5lcmF0b3ImRk9STT1JUUZSQkEmaWQ9OUFBMUMxMUIxRkQwQTU4OTIyNTM2MzM1NkJBOTY5RjA5NDA3MUM1RQ&ntb=1" type="image/x-icon">
-=======
-<!--     nav bar start -->
->>>>>>> 035cedfd04ea787fe85a73b380e74eb44d9cc7b9
-</head>
+   
 <body class="bg-color-primary text-color-white tracking-wider">
     <!-- the navbar  start -->
 <header>
@@ -46,7 +42,7 @@
                         <li><a id="hLink" href="" class="hover:text-color-secondary ease-in duration-200">testimonial</a></li>
                         <li><a id="hLink" href="" class="hover:text-color-secondary ease-in duration-200">pricing</a></li>
                         <li><a id="hLink" href="" class="hover:text-color-secondary ease-in duration-200">blog</a></li>
-                        <li><a id="hLink" href="" class="hover:text-color-secondary ease-in duration-200">contact</a></li>
+                        <li><a id="hLink" href=" " class="hover:text-color-secondary ease-in duration-200">contact</a></li>
                         <li>
                             <button class="px-6 py-2 font-bold capitalize bg-color-secondary shadow-2xl shadow-orange-400/50 rounded-xl hover: opacity-80 ease-in duration-500 hover:bg-orange-700 
                 ">free trial</button>
@@ -55,31 +51,46 @@
                 </div>
                 
     </nav>
-<<<<<<< HEAD
     <!-- nav bar end -->
-    <script>
-        // mobile application
-        const Hanburger =document.querySelector('#Hanburger');
-        const  menu=document.querySelector('#menu');
-        const  hLink=document.querySelector('#hLink');
-        const  faSolid=document.querySelector(".fa-solid");
+</header>
+<!-- home section  -->
+<main>
+    <section id="home" class="relative">
+        <div class="bg-color-blob w-80 h-80 absolute top-40 -left-5  -z-10 blur-2xl  opacity-30 overflow-hidden rounded-full"></div>
+        <div class="bg-color-secondary w-80 h-80 absolute bottom-10 right-0 -z-10 blur-3xl  opacity-70  overflow-hidden rounded-full"></div>
+        <div class="container py-20 ">
+         <div class="flex flex-col items-center z-20 md:flex-row">
+            <div class="text-center bottom-6 font-2x1 md:text-left md:w-1/2 md:pr-10 ">
+                <h1 class="text-5xl top-3 md:text-4xl font-extrabold font-sans capitalize leading-snug">Awesome app for the your need</h1>
+                <p class="leading-relaxed mt-5 mb-10 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui  incidunt delectus explicabo Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+                <button class="px-6 py-2 font-bold capitalize bg-color-secondary shadow-2xl shadow-orange-400/50 rounded-xl hover: opacity-80 ease-in duration-500 hover:bg-orange-700 ">free trial</button> 
+            </div>
+          <div class="md:w-1/2 ">
+            <img  src="/assets/vecteezy_3d-business-wallet-finance-illustration_10175179_357.png" alt="">
+         </div>
+        </div>
+        </div>
+    </section>
+</main>
+<script>
+    // mobile application
+    const Hanburger =document.querySelector('#Hanburger');
+    const  menu=document.querySelector('#menu');
+    const  hLink=document.querySelector('#hLink');
+    const  faSolid=document.querySelector(".fa-solid");
 
-        Hanburger.addEventListener("click", () =>{
+    Hanburger.addEventListener("click", () =>{
+        menu.classList.toggle('hidden');
+        faSolid.classList.toggle(' fa-xmark')
+    })
+    
+    hLink.forEach(link => {
+        link.addEventListener('click',() => {
             menu.classList.toggle('hidden');
-            faSolid.classList.toggle(' fa-xmark')
+        faSolid.classList.toggle(' fa-xmark');
         })
         
-        hLink.forEach(link => {
-            link.addEventListener('click',() => {
-                menu.classList.toggle('hidden');
-            faSolid.classList.toggle(' fa-xmark');
-            })
-            
-        });
-    </script>
-=======
-<!--     nav bar end -->
->>>>>>> 035cedfd04ea787fe85a73b380e74eb44d9cc7b9
-</header>
+    });
+</script>
 </body>
 </html>
