@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.title{
+    @apply text-5xl top-3 md:text-4xl font-extrabold font-sans capitalize leading-snug;
+}
