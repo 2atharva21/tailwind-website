@@ -5,3 +5,9 @@
 .title{
     @apply text-5xl top-3 md:text-4xl font-extrabold font-sans capitalize leading-snug;
 }
+.btn{
+    @apply px-6 py-2 font-bold capitalize bg-color-secondary shadow-2xl shadow-orange-400/50 rounded-xl hover: opacity-80 ease-in duration-500 hover:bg-orange-700;
+}
+.background1{
+    @apply bg-color-blob w-80 h-80 absolute top-40 -left-5  -z-10 blur-2xl  opacity-30 overflow-hidden rounded-full;
+}

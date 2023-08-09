@@ -10,8 +10,10 @@ module.exports = {
         "color-secondary":"#ff7d3d",
         "color-gray":"#333",
         "color-white":"#fff",
-        "color-blob":"#A427DF",
+        "color-blob":"#23E062",
         "color-border":"#E29451",
+       
+
       
       }
     },
